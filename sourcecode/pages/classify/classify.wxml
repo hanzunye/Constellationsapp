@@ -1,0 +1,4 @@
+<view class="content">
+  <view class="title">{{source[idx].title}}</view>
+  <view class="zhengwen">{{source[idx].content}}</view>
+</view>

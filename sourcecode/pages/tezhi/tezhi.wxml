@@ -1,0 +1,24 @@
+
+
+<view class="content">
+  <view class="tzheader">
+星座特性
+</view>
+<view class="scrollNav">
+
+  <view	class= "item" wx:for="{{navArr}}" wx:key="_id">
+  <!-- 传参 -->
+  <navigator url="/pages/classify/classify?idx={{item._id}}">
+
+    <view class="pic">
+        <image src="{{item.icon}}" mode=""/>
+      </view>
+      <view class="text">
+        {{item.classname}}
+      </view>
+
+  </navigator>
+
+  </view>
+</view>
+</view>

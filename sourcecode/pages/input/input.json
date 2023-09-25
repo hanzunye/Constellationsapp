@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#AC1EE3",
+  "navigationBarTitleText": "测星盘",
+  "backgroundColor": "#333",
+  "navigationBarTextStyle":"white"
+  
+}

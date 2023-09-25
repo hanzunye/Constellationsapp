@@ -1,0 +1,17 @@
+.content{
+  padding:50rpx 30rpx 80rpx;
+  background: url(https://mp-3309c116-4743-47d6-9979-462d2edf878c.cdn.bspapp.com/cloudstorage/fcc4ad5c-56a5-4f30-b1bc-4d1d2f1f63a2.jpg) no-repeat;
+  background-size: cover;
+  background-repeat: repeat;
+  min-height: 100vh;
+  .title{
+    font-size: 80rpx;
+    text-align: center;
+    color: purple;
+    padding-bottom: 30rpx;
+  }
+  .zhengwen{
+    text-align: center;
+    font-size: 35rpx;
+  }
+}

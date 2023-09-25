@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/input/input",
+    "pages/results/results",
+    "pages/yunshi/yunshi",
+    "pages/tezhi/tezhi",
+    "pages/classify/classify"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#AC1EE3",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"white"
+
+  },
+  "usingComponents": {
+    "van-cascader": "@vant/weapp/cascader/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
+  },
+  
+  "tabBar": {
+    "selectedColor":"#AC1EE3",
+    "color": "#515151",
+    "backgroundColor": "",
+    "list": [
+      {
+        "pagePath": "pages/tezhi/tezhi",
+        "text": "星座特质",
+        "iconPath": "/images/xg.png",
+        "selectedIconPath": "/images/xg2.png"
+      },
+      {
+      "pagePath": "pages/input/input",
+      "text": "星盘",
+      "iconPath": "/images/star1.png",
+      "selectedIconPath": "/images/ac1ee3.png"
+      
+    },
+
+    {
+      "pagePath": "pages/yunshi/yunshi",
+      "text": "待上线",
+      "iconPath": "/images/ys1.png",
+      "selectedIconPath": "/images/ys2.png"
+    }
+  
+  
+  
+  
+  ]
+  },
+  "sitemapLocation": "sitemap.json"
+  
+}

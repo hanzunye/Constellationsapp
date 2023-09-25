@@ -1,0 +1,38 @@
+<view class="title">
+  <view class="content">
+    Uncle Han’s 星座世界
+    <view class="row">
+    星座深刻的影响着人的性格，太阳星座决定了人的内在品质，月亮星座是内心情绪的写照。上升星座决定了人们的外显性格，上升星座常常被忽视，但它对人性格的塑造，不亚于太阳星座和月亮星座。
+    </view>
+  </view>
+  <view>
+  <image class="pic" src="https://mypic-ali.oss-cn-hangzhou.aliyuncs.com/pic/Screenshot%202023-07-09%20at%2002.30.43.png" mode="aspectFit"/>
+  </view>
+  <view class="content">
+  输入信息，获得星盘
+  </view>
+  <view class="out">
+    <view class="in">
+      <view class="row">
+        <view class="text">请选择出生日期</view>
+            <picker mode="date" model:value = "{{day}}" start="1900-09-01" end="2028-09-01">{{day}}</picker>
+      </view>
+      <view class="row">
+        <view class="text">请选择出生时间</view>
+        <picker mode="time" model:value = "{{time}}">
+        {{time}}</picker>
+      </view>
+      <view class="row">
+        <view class="text">请选择出生地点</view>
+        <picker mode="region" value="{{city}}" bindchange="cch">
+        {{city[0]}},{{city[1]}},{{city[2]}}</picker>
+      </view>  
+    
+    </view>
+  </view>
+  <view class="button" bindtap="onTap">
+    <button type="primary">测星座</button>
+  </view>
+
+
+</view>

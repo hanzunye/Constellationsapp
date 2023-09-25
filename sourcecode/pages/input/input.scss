@@ -1,0 +1,47 @@
+.title {
+  padding:50rpx 30rpx 80rpx;
+  background: url(https://mp-3309c116-4743-47d6-9979-462d2edf878c.cdn.bspapp.com/cloudstorage/fcc4ad5c-56a5-4f30-b1bc-4d1d2f1f63a2.jpg) no-repeat;
+  background-size: cover;
+  background-repeat: repeat;
+  min-height: 100vh;
+  .content{
+    font-size: 56rpx;
+    font-weight: 900;
+    text-align: center;
+    .row{
+      line-height: 1.6em;
+      text-indent: 2em;
+      font-size: 32rpx;
+      padding:20rpx 0;
+      border-bottom:1rpx dashed var(--themeColor);
+      color:var(--focusColor)
+    }
+  }
+  .pic{
+    width: 700rpx;
+    height: 300rpx;
+    padding-bottom: 30rpx;
+  }
+  .out{
+    padding-top: 30rpx;
+    width: 700rpx;
+    border: 3rpx;
+    .row{
+      padding:15rpx 50rpx;
+      border-bottom:1rpx solid #7d0fb4;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 30rpx;
+      color:#333;
+    }
+    .text{
+      font-size: 34rpx;
+      padding-right: 10rpx;
+      box-sizing: border-box;
+    }
+  }
+  .button {
+    margin-top: 30rpx;
+  }
+}
