@@ -47,7 +47,7 @@ def getInput():
     return input
 
 def osssave():
-    auth = oss2.Auth('LTAI5tCAh8E6Bz66tExqqC6i', 'lE8eqtNiXPm86KIkziopdWlZ7R8pze')
+    auth = oss2.Auth('yourkey', 'yourkey')
     bucket = oss2.Bucket(auth, 'http://oss-cn-hangzhou.aliyuncs.com', 'mypic-ali')
     named_tuple = time.localtime() # get struct_time
     time_string = time.strftime("%d%H%M%S", named_tuple)
