@@ -8,10 +8,7 @@
 
 ### Practical demonstration：
 
-![IMG_0004.PNG](APP%20markdown%2074ab2f69e09a40629df5f4a57285b6e4/IMG_0004.png)
+<img decoding="async" src="APP%20markdown%2074ab2f69e09a40629df5f4a57285b6e4/integrate.jpg" width="60%">
 
-![IMG_0005.PNG](APP%20markdown%2074ab2f69e09a40629df5f4a57285b6e4/IMG_0005.png)
+<img decoding="async" src="APP%20markdown%2074ab2f69e09a40629df5f4a57285b6e4/2008123106.svg" width="60%">
 
-![IMG_9993.PNG](APP%20markdown%2074ab2f69e09a40629df5f4a57285b6e4/IMG_9993.png)
-
-![2008123106.svg](APP%20markdown%2074ab2f69e09a40629df5f4a57285b6e4/2008123106.svg)
